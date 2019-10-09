@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lazy loading of images</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Lazy load images <small>(Using the intersection observer)</small></h1>
+    </header>
+    <main>
+        <img class="lazy" style="/* width: 50%; */float: left;/* display: inline-block; */position: absolute;left: 0;" data-src="https://api.adorable.io/avatars/1" data-description="Avatar1" />
+        <img class="lazy" style="/* width: 50%; */float: right;" data-src="https://api.adorable.io/avatars/2" data-description="Avatar2" />
+        <img class="lazy" data-src="https://api.adorable.io/avatars/3" data-description="Avatar3" />
+        <img class="lazy" data-src="https://api.adorable.io/avatars/4" data-description="Avatar4" />
+        <img class="lazy" data-src="https://api.adorable.io/avatars/5" data-description="Avatar5" />
+        <img class="lazy" data-src="https://api.adorable.io/avatars/6" data-description="Avatar6" />
+        <img class="lazy" data-src="https://api.adorable.io/avatars/7" data-description="Avatar7" />
+        <img class="lazy" data-src="https://api.adorable.io/avatars/8" data-description="Avatar8" />
+        <img class="lazy" data-src="https://api.adorable.io/avatars/9" data-description="Avatar9" />
+        <img class="lazy" data-src="https://api.adorable.io/avatars/10" data-description="Avatar10" />
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
